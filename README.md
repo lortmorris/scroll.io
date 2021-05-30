@@ -6,7 +6,7 @@ Scroll.io use "debug" module with "scroll" namespace
 ## Updates
 [2016/07/18] now support for ratio screen!. New examples. Fixes Doc.
 
-## install 
+## install
 
 ```bash
 $ npm install scroll.io
@@ -15,10 +15,11 @@ $ npm install scroll.io
 ## Run examples
 ### Simple http server
 ```bash
-$ cd node_modules/scrollio
+$ cd scroll.io
 $ node examples/http.js
 ```
-open you browser and goto http://localhost:3000 
+
+open you browser and goto http://localhost:3058
 
 ### Using own socket.io instance and redis (for balance).
 
@@ -43,6 +44,3 @@ new scrollio(server);
 server.listen(3000);
 
 ```
-
-
-
