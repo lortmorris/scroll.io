@@ -1,0 +1,33 @@
+{
+  "name": "scroll.io",
+  "version": "1.0.6",
+  "description": "Scroll page using socket.io (share you webpage)",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lortmorris/scroll.io.git"
+  },
+  "keywords": [
+    "scroll",
+    "socket.io",
+    "http"
+  ],
+  "author": {
+    "name": "Cesar Casas",
+    "email": "cesarcasas@bsdsolutions.com.ar",
+    "url": "https://ar.linkedin.com/in/cesarcasas"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lortmorris/scroll.io/issues"
+  },
+  "homepage": "https://github.com/lortmorris/scroll.io#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "socket.io": "^4.1.2",
+    "socket.io-redis": "^6.1.1"
+  }
+}
