@@ -16,7 +16,7 @@ class Scrollio {
 
         debug("crating instance of scroll.io");
 
-        if (typeof socketio == "undefined") {
+        if (typeof socketio === 'undefined') {
             this.socketio = SocketIO.listen(http, {path: '/socket.io'});
         } else this.socketio = socketio;
 
